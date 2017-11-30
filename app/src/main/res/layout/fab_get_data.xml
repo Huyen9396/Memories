@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:id="@+id/menu_bar"
+            android:layout_width="0dp"
+            android:background="@drawable/custom_button"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:weightSum="8"
+            android:layout_margin="@dimen/dimens_10dp"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/btn_menu_nav"
+                    android:src="@drawable/icon_dot"
+                    android:background="@null"
+                    android:padding="@dimen/dimens_5dp"
+                    android:scaleType="centerCrop"
+                    android:layout_width="@dimen/dimens_50dp"
+                    android:layout_height="@dimen/dimens_50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/btn_save"
+                    android:src="@drawable/icon_save"
+                    android:padding="@dimen/dimens_5dp"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:layout_width="@dimen/dimens_50dp"
+                    android:layout_height="@dimen/dimens_50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/btn_folder"
+                    android:padding="@dimen/dimens_5dp"
+                    android:src="@drawable/icon_folder"
+                    android:background="@null"
+                    android:layout_width="@dimen/dimens_50dp"
+                    android:layout_height="@dimen/dimens_50dp"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2">
+
+                <ImageButton
+                    android:id="@+id/btn_camera"
+                    android:padding="@dimen/dimens_5dp"
+                    android:src="@drawable/icon_camera"
+                    android:background="@null"
+                    android:layout_width="@dimen/dimens_50dp"
+                    android:layout_height="@dimen/dimens_50dp"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="2">
+
+            <ImageButton
+                android:id="@+id/btn_service"
+                android:src="@drawable/icon_service"
+                android:background="@drawable/custom_button"
+                android:layout_width="@dimen/dimens_50dp"
+                android:padding="@dimen/dimens_5dp"
+                android:scaleType="centerCrop"
+                android:layout_height="@dimen/dimens_50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

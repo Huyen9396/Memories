@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "956561840066",
+    "firebase_url": "https://memories-c07b1.firebaseio.com",
+    "project_id": "memories-c07b1",
+    "storage_bucket": "memories-c07b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956561840066:android:c698011a411699d2",
+        "android_client_info": {
+          "package_name": "com.apps.huyenpham.memories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956561840066-5unheamud2ak11f4atpsp4eq3nhjnhq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.huyenpham.memories",
+            "certificate_hash": "574457bde5aebbeb9a2e868380dbb7dc2561538e"
+          }
+        },
+        {
+          "client_id": "956561840066-hkqvqvj41ckn6lcn8c8qs7cl7i2jnld8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAEWySjznKMATOSSFgNi-w2Hizfmx6pqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956561840066-hkqvqvj41ckn6lcn8c8qs7cl7i2jnld8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

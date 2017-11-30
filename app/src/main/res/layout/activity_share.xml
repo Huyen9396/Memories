@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context="com.apps.huyenpham.memories.activity.ShareActivity">
+
+    <ImageView
+        android:id="@+id/user_picture"
+        android:src="@drawable/icon_user"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimens_16dp"
+        android:layout_width="@dimen/dimens_150dp"
+        android:layout_height="@dimen/dimens_150dp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_size_20sp"
+        android:textColor="#ffffff"
+        android:layout_margin="@dimen/dimens_16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_facebook"
+        android:layout_margin="@dimen/dimens_16dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/logout_facebook"
+        android:layout_gravity="center"
+        android:background="#3b5998"
+        android:drawableLeft="@drawable/icon_facebook"
+        android:textColor="#fff"
+        android:layout_margin="@dimen/dimens_16dp"
+        android:text="@string/facebook_log_out"
+        android:textSize="@dimen/text_size_20sp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:padding="@dimen/dimens_5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

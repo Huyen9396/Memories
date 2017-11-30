@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Memories</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_note">Write something ...</string>
+    <string name="edt_title">Title ...</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_album">Album</string>
+    <string name="menu_share">Share</string>
+
+    <string name="facebook_app_id">1908529106132185</string>
+    <string name="facebook_log_out">Log out</string>
+
+    <string name="google_api">AIzaSyBWKI8M7ZE52Z2gV6QhDsik9qZFyZatTnw</string>
+
+</resources>

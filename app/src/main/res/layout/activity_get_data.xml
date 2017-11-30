@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00bc77"
+    tools:context="com.apps.huyenpham.memories.activity.GetDataActivity">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_capture"
+            android:src="@drawable/icon_photo"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimens_10dp"
+            android:layout_marginBottom="@dimen/dimens_10dp"
+            android:layout_height="0dp"
+            android:layout_weight="4.5" />
+
+        <EditText
+            android:id="@+id/edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/edt_title"
+            android:textColor="#000"
+            android:paddingLeft="@dimen/dimens_10dp"
+            android:paddingRight="@dimen/dimens_10dp"
+            android:background="@drawable/custom_edt_title"
+            android:layout_marginRight="@dimen/dimens_10dp"
+            android:layout_marginLeft="@dimen/dimens_10dp"/>
+
+        <EditText
+            android:id="@+id/edt_content"
+            android:hint="@string/edit_note"
+            android:background="@drawable/custom_edt_note"
+            android:layout_margin="@dimen/dimens_10dp"
+            android:paddingLeft="@dimen/dimens_10dp"
+            android:paddingRight="@dimen/dimens_10dp"
+            android:textColor="#000"
+            android:ems="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:cursorVisible="true"
+            android:layout_weight="4.5"
+            android:layout_gravity="top"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/fab_get_data"/>
+    <include layout="@layout/fab_menu_nav"/>
+
+</FrameLayout>
